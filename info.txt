@@ -11,6 +11,8 @@
 11.npm i class-transformer
 12.npm i @nestjs/microservices
 13.npm i amqplib amqp-connection-manager
+14. npm i @nestjs/jwt @nestjs/passport bcrypt cookie-parser passport passport-jwt passport-local
+15. npm i -D @types/cookie-parser #types/passport-local
 
 docker-compose up
 
