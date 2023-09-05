@@ -1,0 +1,21 @@
+1.nest new ordering-app
+2.nest generate app orders
+3.nest generate app billing
+4.nest generate app auth
+5.nest g library common
+6.npm i mongoose
+7.npm i @nestjs/mongoose
+8.npm i @nestjs/config
+9.npm i joi
+10.npm i class-validator
+11.npm i class-transformer
+12.npm i @nestjs/microservices
+13.npm i amqplib amqp-connection-manager
+
+docker-compose up
+
+se foloseste cand instalam dependinte noi(pachete)
+docker-compose up --build -V -> de vazut ce face (reseting containers ceva)
+
+npm run start:dev -> starting default application
+npm run start:dev billing -> starting specific application
